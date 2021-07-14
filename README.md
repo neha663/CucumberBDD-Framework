@@ -11,6 +11,10 @@ Configure webdrivermanager libraries from mvnrepository to pom.xml
 Install cucumber plugins from eclipse marketplace.
 After adding all the dependencies Do maven clean and build the maven project.
 
+Link to download selenium library https://www.selenium.dev/downloads/
+
+Link to download Cucumber plugins https://marketplace.eclipse.org/content/cucumber-eclipse-plugin
+
 ## How to Run test scenarios?
 Provide the tagname of the scenarios in RunCucumberTest.java (example: @verifyFourModuleMenuOptions to run only one scenario in feature file)
 Provide the tagname of the scenarios in RunCucumberTest.java (example: @Regression1 to run all scenarios in feature file)
